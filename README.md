@@ -39,7 +39,7 @@ venv\Scripts\activate
 python -m venv venv
 source venv/bin/activate
 
-#Install required packages
+# Install required packages
 
 pip install pymupdf
 
@@ -63,12 +63,3 @@ Run all cells in the notebook. The last cell will launch a Gradio interface.
 Upload a PDF medical report through the Gradio interface to get the analysis.
    
 
-## 📋 Requirements
-
-groq
-gradio
-PyPDF2
-transformers
-torch
-pandas
-numpy
