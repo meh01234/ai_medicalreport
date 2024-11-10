@@ -26,7 +26,7 @@ This advanced medical report analysis system leverages artificial intelligence t
 
 Clone this repository
 
-bashCopygit clone https://github.com/meh01234/ai_medicalreport.git
+git clone https://github.com/meh01234/ai_medicalreport.git
 cd ai_medicalreport
 
 Create and activate a virtual environment
@@ -39,12 +39,15 @@ venv\Scripts\activate
 python -m venv venv
 source venv/bin/activate
 
-Install required packages
+#Install required packages
 
 pip install pymupdf
+
 pip install gradio
+
 pip install groq --upgrade
-Configuration
+
+#Configuration
 
 Open main.ipynb in a Jupyter notebook environment
 Replace YOUR_API_KEY with your actual Groq API key:
