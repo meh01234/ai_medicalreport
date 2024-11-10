@@ -68,13 +68,6 @@ jupyter notebook
 
 4. Upload a PDF medical report through the Gradio interface to get the analysis.
 
-## Features
-
-- PDF text extraction
-- Medical entity recognition
-- Automated diagnosis suggestions
-- Critical alert generation
-- User-friendly Gradio interface
 
 
 
