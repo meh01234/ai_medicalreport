@@ -32,11 +32,11 @@ cd ai_medicalreport
 
 # Create and activate a virtual environment
 
-//Windows
+Windows:
 python -m venv venv
 venv\Scripts\activate
 
-//Linux/Mac
+Linux/Mac:
 python -m venv venv
 source venv/bin/activate
 
