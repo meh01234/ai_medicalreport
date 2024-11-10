@@ -1,4 +1,4 @@
-# ai_medicalreport
+
 # AI-Powered Medical Report Analysis System
 ## 🏥 Overview
 This advanced medical report analysis system leverages artificial intelligence to process and extract insights from medical PDF documents. Using a multi-agent approach with Groq's AI capabilities, the system can preprocess text, extract medical entities, suggest possible diagnoses that can be made based on the tests the patient has taken. Kindly note it makes suggestions on all possible diagnoses that can be made based on the medical test taken, and generate critical alerts.
@@ -23,44 +23,59 @@ This advanced medical report analysis system leverages artificial intelligence t
 
 ## 🛠 Installation & Setup
 
+1. Clone this repository
+```bash
+git clone https://github.com/yourusername/medical-report-analysis.git
+cd medical-report-analysis
+```
 
-Clone this repository
-
-git clone https://github.com/meh01234/ai_medicalreport.git
-
-cd ai_medicalreport
-
-# Create and activate a virtual environment
-
-Windows:
+2. Create and activate a virtual environment
+```bash
+# Windows
 python -m venv venv
 venv\Scripts\activate
 
-Linux/Mac:
+# Linux/Mac
 python -m venv venv
 source venv/bin/activate
+```
 
-# Install required packages
-
+3. Install required packages
+```bash
 pip install pymupdf
-
 pip install gradio
-
 pip install groq --upgrade
+```
 
-# Configuration
+## Configuration
 
-Open main.ipynb in a Jupyter notebook environment
-Replace YOUR_API_KEY with your actual Groq API key:
-
+1. Open `main.ipynb` in a Jupyter notebook environment
+2. Replace `YOUR_API_KEY` with your actual Groq API key:
+```python
 GROQ_API_KEY = "your-actual-groq-api-key"
-Usage
+```
 
-Start Jupyter Notebook:
+## Usage
+
+1. Start Jupyter Notebook:
+```bash
+jupyter notebook
+```
+
+2. Open `main.ipynb` in Jupyter Notebook
+
+3. Run all cells in the notebook. The last cell will launch a Gradio interface.
+
+4. Upload a PDF medical report through the Gradio interface to get the analysis.
+
+## Features
+
+- PDF text extraction
+- Medical entity recognition
+- Automated diagnosis suggestions
+- Critical alert generation
+- User-friendly Gradio interface
 
 
-Open main.ipynb in Jupyter Notebook
-Run all cells in the notebook. The last cell will launch a Gradio interface.
-Upload a PDF medical report through the Gradio interface to get the analysis.
-   
+
 
