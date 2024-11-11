@@ -1,5 +1,6 @@
 
 # AI-Powered Medical Report Analysis System
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/meh01234/ai_medicalreport/blob/main/main.ipynb)
 ## 🏥 Overview
 This advanced medical report analysis system leverages artificial intelligence to process and extract insights from medical PDF documents. Using a multi-agent approach with Groq's AI capabilities, the system can preprocess text, extract medical entities, suggest possible diagnoses that can be made based on the tests the patient has taken. Kindly note it makes suggestions on all possible diagnoses that can be made based on the medical test taken, and generate critical alerts.
 
